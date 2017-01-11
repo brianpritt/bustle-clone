@@ -1,0 +1,27 @@
+{{#if updateStoryForm}}
+  <h4>Update {{story.headline}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="headline">Headline</label>
+        {{input value=headline id="headline" placeholder=story.headline}}
+      </div>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=story.author}}
+      </div>
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{input value=content id="content" placeholder=story.content}}
+      </div>
+      <div class="form-group">
+        <label for="picture">Image URL</label>
+        {{input value=picture id="picture" placeholder=story.picture}}
+      </div>
+      <button {{action 'update' story}}>Save</button>
+    </form>
+  </div>
+  {{else}}
+  {{#link-to 'story'}}Update{{/link-to}}
+  <button {{action 'updateStoryForm'}}>Update</button>
+{{/if}}

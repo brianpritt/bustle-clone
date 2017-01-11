@@ -1,10 +1,13 @@
 .story-div {
   width: 300px;
   height: 150px;
+  display: inline;
+  font-size: 1.5em;
 
 }
 .story-img{
   height: 300px;
+  display: block;
 }
 .jumbotron {
   margin-left: 10%;
@@ -14,4 +17,9 @@
   width: 970px;
   background-image: url('https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsunsfwwSq0Jv8lCIaNQN1izxT2Pkm4jUPFYXv5yur0YlYQZczGl1r5rwn8lmCAFjxl20KIMbTm-8WbWnnZoGPsnKTbrY7oBzkRNoNCWTYw35phusDyYAz9alTEqHuqR90OtZQoSCPoYdNdrRqUtwtn5WZ_lm7VgxrUqKC2sejUcvtMVUn5kgFVplGbLMEU8cWF9J0dk0Xpl4bBkia-h6xGF-U_FGLMfHrTDRkjxyrTrG52A3lwihXi5ePB_pBonA2dP_kQaRC4&sig=Cg0ArKJSzKjG4Q3AzFJFEAE&urlfix=1&adurl=https://lovelace-media.imgix.net/uploads/1115/38eda360-6ec2-0134-cdc9-0aec1efe63a9.png?w=970&h=353fit=clip&auto=format&q=70');
   background-repeat: no-repeat;
+}
+.secondary {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
